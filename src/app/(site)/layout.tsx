@@ -25,7 +25,7 @@ export default function RootLayout({
         <Navbar />
 
         {children}
-        <RetroGrid className='fixed bottom-0' />
+        <RetroGrid className='fixed bottom-0 hidden md:block' />
       </body>
     </html>
   );
