@@ -44,13 +44,13 @@ const config: Config = {
           margin: '0 auto',
           maxWidth: 'calc(100% - 32px)',
           '@screen sm': {
-            maxWidth: '640px',
+            maxWidth: 'calc(640px - 96px)',
           },
           '@screen md': {
-            maxWidth: '768px',
+            maxWidth: 'calc(760px - 96px)',
           },
           '@screen lg': {
-            maxWidth: '1280px',
+            maxWidth: '960px',
           },
           '@screen xl': {
             maxWidth: '1400px',

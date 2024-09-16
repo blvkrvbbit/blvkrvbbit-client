@@ -21,7 +21,7 @@ export default function Home() {
               Frontend
               <span className='text-purple'> /</span> Backend Developer
             </h2>
-            <div className='absolute bottom-0 flex justify-center items-center w-full text-5xl'>
+            <div className='absolute bottom-[4rem] flex justify-center items-center w-full text-5xl'>
               <Link href='#works'>
                 <Icon
                   className='text-purple'
